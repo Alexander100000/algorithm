@@ -21,6 +21,7 @@ public class Main000 {
                 count++;
             }
 //            精髓在这里看不懂可以debug来看
+
             for (int j = 2 * i; j < k; j += i) {
                 nums[j] = true;
             }
