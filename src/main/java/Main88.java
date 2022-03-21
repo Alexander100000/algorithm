@@ -3,7 +3,7 @@
 * */
 public class Main88 {
     public static void main(String[] args) {
-        int [] nums1={1,2,3,0,0};
+        int [] nums1={1,2,3,4,5,0,0};
         int [] nums2={1,2};
         int m=5;
         int n=2;
