@@ -35,14 +35,14 @@ public class MainOffer10 {
         arr[n] = recurse(arr, n - 1) + recurse(arr, n - 2);
         return arr[n];
     }
-//    leetCode原题有些不一样的条件可以去试着用动态规划来解决
+//    leetCode原题有些不一样的条件可以去试着用动态规划来解决时间复杂度（时间复杂度O(n),空间复杂度O（1））
     public static int f(int n){
         final int mod=1000000007;
        if(n<2) return n;
        int left=0;
        int mid=0;
        int right=1;
-//       left接收n-1的值，mid接收n-2的值
+//       left接收n-1的值，mid接收n的值（迭代）
        for(int i=2;i<=n;i++){
          left=mid;
          mid=right;
