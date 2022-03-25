@@ -83,5 +83,8 @@ class TreeNode {
     public TreeNode() {
 
     }
+    public  TreeNode(int value){
+        this.value=value;
+    }
 
 }
