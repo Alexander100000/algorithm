@@ -1,4 +1,6 @@
 import java.util.Stack;
+import java.util.concurrent.locks.ReentrantLock;
+
 /*
 * 从尾到头打印链表(一定要想到栈(先进后出))
 *
@@ -9,7 +11,6 @@ public class MainOffer06 {
         ListNode listNode=new ListNode(1);
         listNode.next=new ListNode(3);
         listNode.next.next=new ListNode(2);
-
         System.out.println(reversePrint(listNode));
     }
     public static int[] reversePrint(ListNode head) {
